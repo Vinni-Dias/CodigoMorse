@@ -4,7 +4,7 @@ Este projeto, desenvolvido para fins acadêmicos, consiste na implementação de
 
 ##  Descrição do Projeto
 
-A proposta do projeto é implementar uma árvore binária onde cada caminho da raiz até um nó representa a sequência de pontos e traços de um caractere específico. A estrutura da árvore segue a lógica do Código Morse, onde uma navegação para a subárvore **esquerda** corresponde a um 'ponto' (`.`) e para a subárvore **direita** corresponde a um 'traço' (`-`)[cite: 7].
+A proposta do projeto é implementar uma árvore binária onde cada caminho da raiz até um nó representa a sequência de pontos e traços de um caractere específico. A estrutura da árvore segue a lógica do Código Morse, onde uma navegação para a subárvore **esquerda** corresponde a um 'ponto' (`.`) e para a subárvore **direita** corresponde a um 'traço' (`-`).
 
 O programa é capaz de decodificar mensagens, permitindo que o usuário insira uma sequência em Morse e receba o texto correspondente.
 
@@ -14,7 +14,7 @@ O programa oferece as seguintes funcionalidades através de um menu interativo:
 
 **Decodificar Mensagens**: Permite que o usuário insira uma mensagem em Código Morse (com caracteres separados por espaço) e o programa a traduz para texto.
 **Inserir Novos Caracteres**: O usuário pode adicionar novos caracteres (como sinais de pontuação) à árvore, fornecendo o caractere e seu respectivo código Morse.
-**Remover Caracteres**: É possível remover um caractere da árvore através de seu código Morse. A remoção preserva a estrutura da árvore, apenas limpando o valor do nó, para não afetar outros caracteres que compartilham o mesmo caminho[cite: 13].
+**Remover Caracteres**: É possível remover um caractere da árvore através de seu código Morse. A remoção preserva a estrutura da árvore, apenas limpando o valor do nó, para não afetar outros caracteres que compartilham o mesmo caminho.
 **Exibir a Árvore**: Mostra uma representação hierárquica de todos os caracteres presentes na árvore e seus respectivos códigos.
 
 ##  Tecnologias e Restrições
@@ -23,8 +23,8 @@ O programa oferece as seguintes funcionalidades através de um menu interativo:
 
 Este projeto foi desenvolvido seguindo restrições específicas que proíbem o uso de bibliotecas e estruturas de dados prontas, com o objetivo de focar na implementação pura da lógica da árvore.
 
-* [cite_start]**Estruturas Proibidas**: `StringBuilder`, `Vector`, `Integer` (e outras classes wrapper), `List`, `Arrays`, tipos abstratos (`<>`), `try-catch`, `throws`, etc.[cite: 34, 35, 3].
-* [cite_start]**Estruturas Permitidas**: Apenas `String`, `int` e `float`[cite: 36]. [cite_start]A função `length` só pode ser usada para manipulação de `String`[cite: 36, 2].
+* **Estruturas Proibidas**: `StringBuilder`, `Vector`, `Integer` (e outras classes wrapper), `List`, `Arrays`, tipos abstratos (`<>`), `try-catch`, `throws`, etc..
+* **Estruturas Permitidas**: Apenas `String`, `int` e `float`]. A função `length` só pode ser usada para manipulação de `String`.
 
 ##  Estrutura do Código
 
